@@ -22,7 +22,7 @@
 	<window if="desktop"	orientation="landscape" fullscreen="false" resizable="true" />
 	
 	<!--Mobile-specific-->
-	<window if="mobile"		orientation="landscape" fullscreen="true" width="0" height="0" />
+	<window if="mobile"		orientation="landscape" fullscreen="true" width="640" height="480" />
 	
 	<!--------------------------------PATHS SETTINGS-------------------------------->
 	
@@ -39,7 +39,7 @@
 		<sound path="sounds/Explosion33.mp3" id="explode"/>
 	</assets>
 	
-	<assets path="assets" if="desktop">
+	<assets path="assets" if="desktop || android">
 		<sound path="sounds/Blip_Select35.wav" id="blip1"/>
 		<sound path="sounds/Blip_Select40.wav" id="blip2"/>
 		<sound path="sounds/Blip_Select44.wav" id="blip3"/>
