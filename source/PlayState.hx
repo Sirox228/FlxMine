@@ -7,7 +7,7 @@ import flixel.group.FlxGroup;
 import flixel.text.FlxText;
 import flixel.ui.FlxButton;
 import flixel.util.FlxColor;
-import flixel.group.FlxTypedGroup;
+import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.util.FlxTimer;
 
 /**
